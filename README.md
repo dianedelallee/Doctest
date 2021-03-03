@@ -27,3 +27,8 @@ python3 _06_external_doc/_01_external_doc_test.py -v
 python3 -m doctest -v _07_structured_doctest/main_doctest.rst
 python3 _08_run_unittest_suite.py -v
 ```
+
+
+## Coming soon
+
+Explanation on how to launch tests with pytest -> no need for ` __name__ == "__main__"` anymore
