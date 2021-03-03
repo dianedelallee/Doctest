@@ -1,7 +1,7 @@
 import doctest
 
 __test__ = {
-    'numbers':"""
+    'numbers_from_file_1':"""
 >>> my_function(2, 3)
 6
 

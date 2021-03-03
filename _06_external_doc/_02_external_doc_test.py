@@ -1,8 +1,8 @@
 import doctest
-import external_doc_test
+import _01_external_doc_test
 
 __test__ = {
-    'numbers':"""
+    'numbers': """
 >>> my_function(2, 3)
 6
 
@@ -10,7 +10,7 @@ __test__ = {
 6.0
 """,
 
-    'strings':"""
+    'strings': """
 >>> my_function('a', 3)
 'aaa'
 
@@ -18,14 +18,16 @@ __test__ = {
 'aaa'
 """,
 
-'external':external_doc_test,
+    'external': _01_external_doc_test,
 
-    }
+}
+
 
 def my_function(a, b):
     """Returns a * b
     """
     return a * b
+
 
 if __name__ == "__main__":
     doctest.testmod()
